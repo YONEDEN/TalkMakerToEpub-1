@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/* BCCKS Epub Style Standard LefttoRight�Q�l*/
+
+
+/* ���{�ݒ� */
+
+
+/* �Ŗ� */
+
+@page {
+    margin: 2.5em 0 3em 0;
+}
+
+body {
+    -webkit-line-break: normal;
+    -epub-line-break: normal;
+    -webkit-word-break: normal;
+    -epub-word-break: normal;
+    -webkit-hyphens: auto;
+    -epub-hyphens: auto;
+    word-spacing: normal;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    /* ���p�����̋������s�������iurl�΍��j */
+    white-space: normal;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.balloon_R {
+	/*page-break-inside: auto;
+	font-size: 10pt;
+	line-height: 100%;*/
+    text-align: left;
+	float: right;
+	background: #feffff;
+    border: 1px solid #111111;
+	display: inline;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right: 1em;
+    margin-left: 0em;
+	max-width: 80%;
+}
+
+.balloon_L {
+    /*page-break-inside: auto;
+    font-size: 10pt;
+    line-height: 100%;*/
+    text-align: left;
+    float: left;
+    background: #fffeff;
+    border: 1px solid #111111;
+    display: inline;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 3em;
+    margin-right: 0em;
+    max-width: 80%;
+}
+
+.act {
+	float: center;
+    text-align: center;
+	display: block;
+	max-width: 87%;
+}
+
+
+
+.img_Center {
+    text-align: center;
+    border: 0px;
+
+}
+
+.iconL {
+    float: left;
+    padding-top: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0em;
+    text-align: left;
+    display: block;
+    max-width: 5%;
+}
+
+.iconR {
+    float: right;
+    padding-top: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0em;
+    text-align: right;
+    display: block;
+    max-width: 5%;
+}
+
+.iconClear {
+    clear: both;
+}
